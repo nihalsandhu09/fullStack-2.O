@@ -9,8 +9,8 @@
     </style>
 </head>
 <body>
-     <h1>Sign-UP TO Nihal Sandhu's Official Website </h1>
-
+     <h1>Sign-UP TO <span><a href="./mainPage.Html">Nihal Sandhu's</a></span> Official Website </h1>
+<p>Already have account <span> <a href="./Sign-In.Html">Sign-In</a> </span></p>
      <fieldset>
         <legend>
             Sign-UP
@@ -18,24 +18,24 @@
 
         <form action="">
             <label for="First-Name">Enter your First-Name </label><br> 
-            <input type="name" id="First-Name" name="First-Name" min="3" ><br>  <br>
+            <input type="name" id="First-Name"  required  name="First-Name" min="3" ><br>  <br>
             <label for="Last-Name">Enter Your Last-Name</label><br>  
-            <input type="Last-Name" id="Last-Name" name="Last-Name" min="3" ><br>  <br>
+            <input type="Last-Name"   required id="Last-Name" name="Last-Name" min="3" ><br>  <br>
             <label for="email">Enter Your Email</label><br> 
-            <input type="email" id="email" name="email"min="3" ><br>  <br>
+            <input type="email"  required id="email" name="email" min="3" ><br>  <br>
             <label for="Password">Enter Your Password</label><br> 
-            <input type="password" name="Password" id="Password"><br>  <br>
+            <input type="password"  required  name="Password" id="Password"><br>  <br>
             <label for="Confirm-Password">Confirm Your Password </label><br> 
-            <input type="password" name="Confirm-Password" id="Confirm-Password"><br>  <br>
+            <input type="password"  required  name="Confirm-Password" id="Confirm-Password"><br>  <br>
             <label for="age">Enter Your age</label>
-            <input type="date" name="age" id="age"><br>  <br>
+            <input type="date"  required  name="age" max="1878-9-22" id="age"><br>  <br>  
             <label for="gender">Enter Your Gender</label>
-            <select name="gender" id="gender">
+            <select  required  name="gender" id="gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="Transgender">Transgender</option>
           </select><br>  <br>
-          <input type="checkbox" name="Term&Condition" id="Term&Condition">
+          <input  required  type="checkbox" name="Term&Condition" id="Term&Condition">
           <label for="Term&Condition">Agree To Term and Conditions </label>
           <br> <br>
           <input type="submit" value="Submit">
