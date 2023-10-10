@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.main-cintaiener{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    overflow: hidden;
+}
+.navigation-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.logos{
+    display: flex;
+    gap: 40px;
+}
+.nav ul {
+    display: flex;
+    gap: 10px;
+    
+  
+}
+li{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 18px;
+}
+.only-list{
+
+}
+.button-list{
+display: flex;
+gap: 20px;
+}
+.button-list button{
+   font-size: 14px;
+   padding: 2px 10px;
+}
+.log-in{
+background-color: rgb(255, 153, 0);
+color: white;
+}
+.button-list li{
+    padding-left: 10px;
+}
+
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    padding: 80px ;
+    gap: 15px;
+}
+.main-heading h1{
+    font-size: 60px;
+}
+
+.sub-heading{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+.activity{
+    display: flex;
+    padding:  0 80px ;
+    gap: 20px;
+    align-items: center;
+}
+.activity>div{
+    background-color: whitesmoke;
+    border: 1px solid black;
+   padding: 2px 12px ;
+}
+
+.book-ticket{
+    background-color: rgb(24, 24, 77);
+}
+
+
+.booking-inner{
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    align-items: center;
+    
+}
+.pnr-status-inner{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.inner-chart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
