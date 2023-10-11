@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+    
 }
 html,body{
     width: 100vw;
@@ -43,20 +47,22 @@ li{
     align-items: end;
     gap: 18px;
 }
-.only-list{
-
-}
+/* 
+ */
 .button-list{
 display: flex;
 gap: 20px;
 }
 .button-list button{
    font-size: 14px;
-   padding: 2px 10px;
+   padding: 8px 15px;
+   border-radius: 5px;
+   border: 1px solid white;
 }
 .log-in{
 background-color: rgb(255, 153, 0);
 color: white;
+border-radius: 5px;
 }
 .button-list li{
     padding-left: 10px;
@@ -80,13 +86,13 @@ color: white;
 .activity{
     display: flex;
     padding:  0 80px ;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 .activity>div{
     background-color: whitesmoke;
-    border: 1px solid black;
-   padding: 2px 12px ;
+    border: 1px solid rgb(49, 49, 49);
+   /* padding: 2px 12px ; */
 }
 
 .book-ticket{
@@ -96,20 +102,110 @@ color: white;
 
 .booking-inner{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     font-size: 14px;
     align-items: center;
+    padding: 5px 40px;
+    font-weight: 600;
+    color: white;
     
 }
 .pnr-status-inner{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     font-size: 14px;
+    padding: 5px 30px;
+    font-weight: 600;
+    
 }
 .inner-chart{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     font-size: 14px;
+     padding: 5px 40px;
+     font-weight: 600;
+    
+}
+
+.booking-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid rgba(240, 237, 237);
+    outline: none;
+    width: 620px;
+    margin: 100px   80px 0px ;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-radius: 10px;
+    
+}
+.From{
+    display:flex ;
+    align-items: center;
+    gap: 15px;
+}
+.to{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.city{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+.train-time-seat-type{
+    display: flex;
+    gap: 50px;
+    gap: 50px;
+    border: 1px solid rgba(240, 237, 237);
+    outline: none;
+    width: 620px;
+    margin: 20px   80px 0px ;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.img > img{
+    width: 22px;
+    position: relative;
+    top: -5px;
+}
+
+.Button{
+    background-color: rgb(64, 167, 64);
+    color: white;
+    font-weight: 700;
+    width: 620px;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 80px 80px;
+    align-items: center;
+}
+.search-button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
 }
