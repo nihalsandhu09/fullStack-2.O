@@ -46,7 +46,7 @@ const aReallyLongNumber = 904554545n
     isLoggedIn:true
  }
 
-
+let anotherUSer = userObj
 
 //  Function
 
