@@ -4,6 +4,14 @@
 
 // The ternary operator, also known as the conditional operator, is a concise way to write conditional statements in many programming languages. It's a shorthand way of expressing an if-else statement.
 
+// The ternary operator is primarily used for making quick, concise decisions within code. Its primary advantages include:
+
+// Conciseness: It condenses an if-else statement into a single line, reducing the amount of code needed.
+
+// Readability: In some cases, it can enhance readability, especially for simple conditional assignments, making the code more compact and easier to understand.
+
+// Functional in Expressions: It can be used within expressions or when assigning values, allowing for conditional value assignments directly.
+
 // syntax of ternory operator 
 
 // condition ? expression1 : expression2
