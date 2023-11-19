@@ -22,3 +22,6 @@ console.log(score)
 if(""){  // empty string is falsy value
 console.log('hello')
 }
+
+
+
