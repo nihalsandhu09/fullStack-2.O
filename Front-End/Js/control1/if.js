@@ -25,3 +25,17 @@ console.log('hello')
 
 
 
+if(3 < 4 || 4 < 3){   // with logical or operator 
+    console.log('the operation is succesful ')
+}
+
+let hour = 9;
+
+if(10 > hour || hour > 11){
+    console.log(`office is closed`)
+}
+
+if(4<3 & 3<4){
+    console.log('logical &and operator ')
+}
+

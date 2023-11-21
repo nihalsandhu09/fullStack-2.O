@@ -7,10 +7,56 @@
 
 // lets print number that are divisble by 2 only 
 
-for(let i = 1 ; i<10;i++){
-    if(i % 2 ==0){
-        console.log(i)
-    }
-}
+// for(let i = 1 ; i<10;i++){
+//     if(i % 2 ==0){
+//         console.log(i)
+//     }
+// }
 
 // here it is 2,4,6,8 will be printed 
+
+
+// let print value of array 
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// for(let i =0;i<arr.length;i= i+1){
+//     console.log(`value of i is now ${arr[i]}`)
+// }
+
+// let add 2 of each value of array 
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// for(let ele = 0;ele<arr.length;ele++){
+//     console.log(arr[ele] + 2)
+//     // console.log(`after adding 2 to each value of array now value of arr is ${arr[ele] + 2}`)
+// }
+
+
+
+// if a value is divided by two then print it or if value is divided by 3 not print it 
+
+// for(let i =0;i<=12;i++){
+//     if(i % 2 ==0){
+//         continue
+//     }else if(i % 3 == 0){
+//         console.log(i)
+//     }
+// }
+
+// give the total of array 
+
+let cardItems = [100,200,300,400]
+
+let sum = 0
+for(let i =0;i<cardItems.length;i++){
+  
+  sum = sum + cardItems[i]
+  
+
+
+
+  
+}
+console.log(sum)
