@@ -60,3 +60,23 @@ for(let i =0;i<cardItems.length;i++){
   
 }
 console.log(sum)
+
+
+for(let i=0;i<4;i++){
+  for(let j = 1;j<4;j++){
+    console.log(j)
+  }
+  console.log(i)
+}
+
+function printSquare(size){
+for(let i =0;i<size;i++){
+  let line = '';
+  for(let j =1;j<=size;j++){
+    line = line + '*  ';
+  }
+  console.log(line)
+}
+}
+
+printSquare(5)
