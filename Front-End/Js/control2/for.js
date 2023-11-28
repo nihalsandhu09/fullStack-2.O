@@ -74,9 +74,35 @@ for(let i =0;i<size;i++){
   let line = '';
   for(let j =1;j<=size;j++){
     line = line + '*  ';
+    
   }
   console.log(line)
 }
 }
 
-printSquare(5)
+printSquare(2)
+
+
+for(let i=0;i<=15;i++){
+  if(i ===0){
+    console.log(`${i} is even`)
+  }
+  else if (i % 2 ===0){
+console.log(`${i} is even`)
+  }
+  else{
+    console.log(`${i} is odd`)
+  }
+}
+
+
+
+
+let obj = {
+  name:"Nihal Sandhu",
+  rollNo:952,
+}
+
+obj.name = "Nihal Singh Sandhu"
+
+console.log(obj)
