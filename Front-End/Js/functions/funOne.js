@@ -144,4 +144,14 @@ function withUpperCase(callback) {
   const withExclamationUpperCase = withUpperCase(addExclamation);
   const result = withExclamationUpperCase('hello'); // Output: HELLO!
   console.log(result)
+
+  // rest parameter 
+
+  // rest parameter can accept thousands of arguments  
+
+  function checkrestparameter(x,...y) {
+    console.log(x)
+    console.log(y)
+  }
   
+  checkrestparameter(5,1,2,4,5,6,7,8,9)
